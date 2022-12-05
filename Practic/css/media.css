@@ -1,0 +1,38 @@
+@media (max-width: 930px) {
+    .recent-box-conteiner{
+        max-width: 630px;
+        width: 100%;
+        margin: auto;
+    }
+    .recent-box{
+        margin: auto;
+        float: none;
+        margin-top: 20px;
+    }
+    .web-box{
+        float: none;
+    }
+    .recent-project{
+        max-height: none;
+    }
+    #nav-menu-container {
+        min-width: 220px;
+    }
+}
+
+@media (max-width: 1500px){
+    .check-details-text {
+        font-size: 30px;
+        margin: 35px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1300px){
+    .check-details-text {
+        font-size: 25px;
+        margin: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

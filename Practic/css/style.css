@@ -1,0 +1,815 @@
+body {
+    font-family:  sans-serif;
+}
+
+.conteiner-logo{
+    padding: 5px 3px 5px 0;
+    min-width: 600px;
+
+}
+.Marine-logo {
+    width: 140px;
+    height: 55px;
+    display: inline-block;
+}
+
+.contact, .contact-ceo {
+    display: block;
+    list-style: none;
+}
+
+.contact-icon {
+    float: left;
+}
+
+#phone {
+    margin-right: 30px;
+    padding-left: 30px;
+    float: right;
+}
+
+#phone::after {
+	content: "|";
+	color: black;
+    margin-left: 20px;
+    position: absolute;
+    color: #B0BEC5;
+}
+
+.sticky{
+    margin-top: 0px;
+    position: sticky;
+    top: 0px;
+    height: 55px;
+    background-color: rgb(172, 205, 218);
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    z-index: 4;
+}
+
+.nav-text{
+    float: left;
+    margin-right: 59px;
+    margin-top: 17px;
+    font-size: small;
+}
+
+#nav-menu-container {
+    min-width: 720px;
+}
+
+.nav-text-a {
+    text-decoration: none;
+}
+
+
+.nav-text-a:hover {
+    color: rgb(93, 169, 215);
+}
+
+.search-icon{
+    margin-top: 15px;
+}
+
+.search-box {
+    position: relative;
+    display: inline-block;
+}
+
+.search-input {
+    border: none;
+    width: 190px;
+    margin-right: 0px;
+}
+
+.search-icon-2{
+    background-color: rgb(82, 82, 85);
+    margin-right: -25px;
+}
+
+.search-box:focus-within .search-icon-2, .search-box:focus-within .search-input {
+    display: block
+}
+
+.search-box:hover .search-icon-2, .search-box:hover .search-input  {
+    display: block
+}
+
+.back-logo{
+    height: 810px;
+    background-color: rgb(3, 103, 142);
+}
+
+.home-logo{
+    height: 100%;
+    background-image: url(img/d752e8af207eae954c89498fadd1456f_79.jpg) ;
+    background-size: cover;
+    min-width: 490px;
+}
+
+.yacht-logo{
+    width: 140px;
+    height: 140px;
+    margin: auto;
+}
+
+.logo-h1-box{
+    max-height: 810px;
+    max-width: 1600px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10%;
+}
+
+.natural-text{
+    font-size: 80px;
+}
+
+.natural-text-small{
+    font-size: medium;
+    border-top: white double;
+    border-bottom: white double;
+    max-width: 440px;
+    margin: auto;
+}
+
+.capabilities {
+    background-color: rgb(9, 156, 197);
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.capabilities-icon{
+    width: 85px;
+    height: 85px;
+    margin: auto;
+    background-color: rgb(56, 176, 203);
+    padding: 20px;
+
+}
+
+.capabilities-botton-size {
+    margin: 40px;
+}
+
+.web-box{
+    width: auto;
+    height: 300px;
+    float: left;
+    padding-top: 15px;
+}
+
+.capabilities-box-name-text {
+    font-size: 25px;
+    margin-top: 25px;
+    color: white;
+}
+.capabilities-box-text{
+    font-size: 11px;
+    color: rgb(140, 217, 255);
+}
+
+.recent-project{
+    background-color: rgb(35, 50, 58);
+    overflow: hidden;
+    max-height: 501px;
+}
+
+.recent-text{
+    font-size: 35px;
+    color: rgb(196, 211, 222);
+    font-weight: 100;
+    padding-top: 35px;
+}
+
+.recent-text-smal{
+    font-size: medium;
+    color: rgb(101, 129, 144);
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.project-image{
+    width: 388px;
+    height: 202px;
+    background-color: white;
+}
+
+.recent-box{
+    float: left;
+    width: 388px;
+    max-width: 388px;
+    height: 302px;
+    background-color: rgb(42, 59, 69);
+    margin-bottom: 0px;
+    margin-left: 2px;
+}
+
+.recent-box-conteiner{
+    width: 110%;
+    min-width: 380px;
+    overflow: visible;
+    margin-top: 40px;
+}
+
+.recent-box-button{
+    margin: 22px;
+    width: 200px;
+    margin-top: 19px;
+    float: left;
+}
+
+.project-name{
+    font-size: x-large;
+    color: rgb(234, 235, 236);
+    font-weight: 10;
+}
+.project-description{
+    font-size: small;
+    color: rgb(151, 164, 173);
+}
+
+.like-icon-heart{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 10px;
+    float: left;
+}
+
+.like-botton{
+    width: 50px;
+    margin-top: 27px;
+    margin-right: 20px;
+}
+.like-number{
+    margin-top: 13px;
+    font-size: small;
+    color: rgb(151, 164, 173);
+}
+
+.recent-box:hover {
+    background-color: rgb(47, 66, 77);
+}
+
+.recent-box:hover .like-icon-heart {
+    display: none
+}
+
+#alter-heart{
+    display: none;
+}
+
+.recent-box:hover #alter-heart {
+    display: block
+}
+
+.check-details{
+    height: 120px;
+    background-color: rgb(252, 252, 252);
+    /* min-width: 1150px; */
+}
+
+#home-recent-project{
+    border-bottom: 2px rgb(236, 237, 237) solid;
+}
+
+.icon-check-detail:link, .icon-check-detail:visited, .icon-check-detail{
+    text-decoration: none;
+    color: rgb(106, 176, 224);
+}
+
+.check-details-text{
+    font-size: 35px;
+    margin: 30px;
+    margin-left: 0px;
+    float: left;
+}
+
+.inform-logo {
+    width: 24px;
+    height: 24px;
+    margin: 0px;
+    margin-right: 7px;
+    margin-top: -2px;
+}
+
+
+.botton-detail{
+    height: 50px;
+    width: 170px;
+    background-color: rgb(0, 143, 213);
+    float: right;
+    font-size: small;
+    padding: 15px;
+    font-family: serif;
+}
+
+.botton-detail:link, .botton-detail:visited, .botton-detail{
+    text-decoration: none;
+    color: white
+}
+
+.recent-heading{
+    font-size: 25px;
+    font-family: Verdana, sans-serif;
+    padding-bottom: 15px;
+}
+
+.image-date{
+    width: 70px;
+    float: left;
+}
+
+
+.video-photo-pading{
+    width: 660px;
+    height: 130px;
+    margin-bottom: 4%;
+}
+
+.data-number{
+    width: 100%;
+    height: 70px;
+    font-size: 50px;
+    margin-top: -18px;
+    color: rgb(0, 143, 213);
+}
+
+.data-year{
+    font-size: small;
+}
+
+.icon-photo{
+    margin: auto;
+    margin-top: 8px;
+}
+
+.recent-photo-icon{
+    float: left;
+    height: 130px;
+    width: 130px;
+}
+  
+.recent-link:hover{
+    color: rgb(0, 143, 213);
+}
+
+.recent-link {
+    font-size: small;
+    margin-right: 20px;
+}
+
+.recent-post-text{
+    height: 30px;
+    border-bottom: 2px beige solid;
+}
+
+.blue-text:link, .blue-text:visited{
+    color: rgb(0, 143, 213);
+}
+
+.blue-text {
+    font-size: large;
+    color: rgb(0, 143, 213);
+    margin-bottom: 3px;
+    
+}
+
+.recent-botton-text{
+    font-size: small;
+}
+
+.panel {
+    display: none;
+    max-height: 700px;
+    max-width: 300px;
+    font-size: small;
+    margin: 3%;
+}
+
+.panel.show {
+    display: block !important;
+}
+
+.people-text{
+    max-width: 400px;
+}
+
+.video-photo-box{
+    width: 700px;
+    min-width: 300px;
+    float: left;
+}
+
+.plus-icon{
+    float: left;
+    height: 30px;
+    font-size: large;
+}
+
+.accordion{
+    max-width: 300px;
+    min-height: 30px;
+    margin-bottom: 2px;
+}
+
+.accordion-box{
+    width: 300px;
+}
+
+.accordion, .plus-icon{
+    border: 1px rgb(235, 238, 240) solid;
+}
+
+.div-crutch{
+    width: 100%;
+    opacity: 0;
+}
+
+.ceo-photo{
+    width: 81px;
+    height: 81px;
+    float: left;
+}
+
+.name-geo{
+    height: 81px;
+    width: 100%;
+    background-color: rgb(35, 50, 58);
+    padding: 7px;
+    padding-left: 98px;
+}
+
+.project-name{
+    color: white;
+    font-size: x-large;
+}
+
+.what-people-text{
+    margin: 5%;
+    margin-left: 0px;
+}
+
+.mail:visited, .mail:link, .mail{
+    color: rgb(140, 211, 255);
+    text-decoration: none;
+    font-size: small;
+}
+
+.what-people-icon{
+    width: 54px;
+    padding: 14px;
+    float: left;
+    height: 168px;
+    padding-bottom: 128px;
+}
+
+.people-disk:link, .people-disk:visited, .people-disk{
+    text-decoration: none;
+    color: rgb(0, 143, 213);
+}
+.people-dis{
+    font-size: large;
+}
+
+.people-text{
+    font-size: small;
+    margin-top: 3%;
+}
+
+.our-team-top{
+    height: 430px;
+    width: 100%;
+    background-color: rgb(9, 142, 209);
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.our-team-image-box{
+    width: 660px;
+    height: 100%;
+    padding-top: 50px;
+    float: left;
+}
+
+.team-first-image{
+    position: relative;
+    float: left;
+    width: 395px;
+    height: 241px;
+    margin-left: 170px;
+    z-index: 1;
+    box-shadow: -4px 12px 20px rgba(0,0,0,1);
+}
+
+.team-second-image{
+    float: left;
+    width: 298px;
+    height: 181px;
+    position: relative;
+    bottom: 205px;
+    z-index: 0;
+    box-shadow: -4px 8px 30px rgba(0,0,0,1);
+}
+
+.team-keyboard-image{
+    height: 120px;
+    width: 420px;
+    position: relative;
+    z-index: 0;
+    bottom: 180px;
+    left: 80px;
+}
+
+.company-function-conteiner{
+    width: 800px;
+    margin-left: 45%;
+    padding-top: 35px;
+}
+
+.Function-icon{
+    width: 45px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.icon-and-text-block{
+    margin-bottom: 6%;
+}
+
+.company-function-heading{
+    font-size: x-large;
+    padding: 5px;
+    padding-top: 0;
+    color: white;
+}
+
+.company-function-text{
+    margin-left: 75px;
+    color: rgb(140, 217, 255);
+    overflow: hidden;
+    max-height: 48px;
+}
+
+.our-team-botton{
+    width: 100%;
+    height: 569px;
+    background-color: rgb(53, 63, 75);
+    overflow: hidden;
+    min-width: 1100px;
+    display: flex;
+    justify-content: center;
+}
+
+.our-team-photo-heading{
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 100;
+    position: absolute;
+}
+
+.team-photo-box{
+    float: left;
+    width: 190px;
+    margin: 4%;
+    margin-top: 6%;
+}
+
+.people-photo-border{
+    width: 190px;
+    height: 181px;
+    border: 8px rgb(63, 72, 84, 0.6) solid;
+}
+
+.contact-ceo{
+    height: 24px;
+}
+
+.people-name{
+    color: white;
+    text-align: center;
+}
+
+.contact-icon-ceo{
+    margin: 4px;
+    float: left;
+}
+
+.position-in-company{
+    text-align: center;
+    color: rgb(9, 142, 209);
+    font-size: small;
+}
+
+.people-description{
+    text-align: center;
+    font-size: small;
+    color: white;
+    min-height: 120px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border-bottom: 1px beige solid;
+}
+
+.sponsor-image{
+    height: 100%;
+    width: 250px;
+    min-width: 150px;
+    float: left;
+}
+
+#PAGES{
+    display: flex;
+    justify-content: center;
+    height: 422px;
+    background-color: rgb(73, 91, 105);
+}
+
+.get-touch-name{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    font-weight: 100;
+}
+
+.input-text {
+    display: block;
+    width: 442px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    height: 50px;
+    padding: 3%;
+    opacity: 0.7;
+}
+
+textarea{
+    height: 100px;
+    resize: none;
+    width: 442px;
+    display: block;
+    opacity: 0.7;
+    padding: 3%;
+}
+
+.input-botton{
+    height: 50px;
+    width: 110px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(100, 115, 127);
+    border: none;
+    position: relative;
+    left: 110px;
+    top: 30px;
+}
+
+.get-touch-conteiner{
+    padding-top: 15px;
+}
+
+#Twiter{
+    height: 130px;
+    background-color: rgb(0, 143, 213);
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.bird-icon-cage{
+    background-color: rgb(31, 156, 218);
+    height: 100%;
+    width: 130px;
+    float: left;
+}
+
+.twiter-bird{
+    padding: 25px;
+}
+
+.twiter-text{
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    margin-left: 130px;
+    font-size: large;
+    color: white;
+    text-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.smal-twiter-text{
+    padding-top: 0px;
+}
+.i-element{
+    color: rgb(187, 219, 239);
+    text-shadow: none;
+}
+
+.footer-conteiner{
+    height: 350px;
+    background-color: rgb(25, 36, 42);
+    /* padding-left: 12%;
+    padding-right: 12%; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-recent-box{
+    float: left;
+    max-width: 245px;
+    width: 245px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.footer-icon{
+    width: 24px;
+    float: left;
+    height: 24px;
+    margin-top: 3px;
+}
+
+.marine-logo-text{
+    margin-top: 10px;
+    font-size: small;
+}
+
+.footer-recent-post{
+    margin-bottom: 10px;
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+}
+
+.footer-data{
+    font-size: small;
+}
+
+.footer-heading{
+    color: rgb(189, 210, 220);
+}
+
+.footer-text{
+    font-size: small;
+}
+
+.recent-border-box{
+    margin-bottom: 10px;
+}
+
+#recent-border-top{
+    border-top: 2px rgb(35, 50, 58) solid;
+    padding-top: 10px;
+}
+
+.addres-text{
+    padding-left: 34px;
+    font-size: small;
+}
+
+.adress-box{
+    margin-bottom: 15px;
+}
+
+#set-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(35, 50, 58);
+    border: none;
+}
+
+.footer-recent-follow{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.copyright-box{
+    height: 45px;
+    background-color: rgb(20, 29, 34) ;
+}
+
+#copyright-text{
+    font-size: small;
+    color: rgb(103, 121, 115);
+    padding-top: 13px;
+}
+
+#follow-border{
+    margin-top: 5px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
